@@ -13,12 +13,12 @@ import {
   Xgrid,
   Ygrid,
   Legend
-} from 'react-d3-core';
+} from 'mhs-d3-core';
 
 import {
   Line,
   Chart
-} from 'react-d3-shape';
+} from 'mhs-d3-shape';
 
 import CommonProps from './commonProps';
 

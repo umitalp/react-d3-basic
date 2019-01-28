@@ -2,7 +2,7 @@
 
 var React = require('react');
 var ReactDOM = require('react-dom');
-var Chart = require('react-d3-core').Chart;
+var Chart = require('mhs-d3-core').Chart;
 var LineChart = require('../../lib').LineChart;
 
 (function() {

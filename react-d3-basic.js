@@ -6788,7 +6788,7 @@ Label.defaultProps = _extends({
   labelPosition: 'bottom',
   labelOffset: 40,
   textAnchor: 'middle',
-  labelClassName: 'react-d3-core__label'
+  labelClassName: 'mhs-d3-core__label'
 }, _commonProps2.default);
 Label.propTypes = {
   height: _react.PropTypes.number.isRequired,
@@ -6959,7 +6959,7 @@ var Grid = function (_Component) {
 
 Grid.defaultProps = _extends({
   type: 'x',
-  gridAxisClassName: 'react-d3-core__grid_axis'
+  gridAxisClassName: 'mhs-d3-core__grid_axis'
 }, _commonProps2.default);
 Grid.propTypes = {
   height: _react.PropTypes.number.isRequired,
@@ -8032,7 +8032,7 @@ var ChartSvg = function (_Component) {
 }(_react.Component);
 
 ChartSvg.defaultProps = _extends({
-  svgClassName: 'react-d3-core__container_svg',
+  svgClassName: 'mhs-d3-core__container_svg',
   onZoom: function onZoom() {},
   scaleExtent: [1, 10]
 }, _commonProps2.default);
@@ -9057,7 +9057,7 @@ Legend.defaultProps = _extends({
   legendHeight: 50,
   legendPosition: 'left',
   legendOffset: 90,
-  legendClassName: 'react-d3-core__legend',
+  legendClassName: 'mhs-d3-core__legend',
   swatchShape: 'square'
 }, _commonProps2.default);
 Legend.propTypes = {
@@ -19770,7 +19770,7 @@ var ChartTitle = function (_Component) {
 }(_react.Component);
 
 ChartTitle.defaultProps = _extends({
-  titleClassName: 'react-d3-core__container_title',
+  titleClassName: 'mhs-d3-core__container_title',
   title: ''
 }, _commonProps2.default);
 ChartTitle.propTypes = {
@@ -22744,7 +22744,7 @@ var Xaxis = function (_Component) {
 
 Xaxis.defaultProps = _extends({
   showXAxis: true,
-  xAxisClassName: 'react-d3-core__axis__xAxis',
+  xAxisClassName: 'mhs-d3-core__axis__xAxis',
   xScale: 'linear',
   xOrient: 'bottom',
   xTickOrient: 'bottom',
@@ -22927,7 +22927,7 @@ var Yaxis = function (_Component) {
 
 Yaxis.defaultProps = _extends({
   showYAxis: true,
-  yAxisClassName: 'react-d3-core__axis__yAxis',
+  yAxisClassName: 'mhs-d3-core__axis__yAxis',
   yScale: 'linear',
   yOrient: 'left',
   yTickOrient: 'left',
@@ -23401,7 +23401,7 @@ var ChartSvg = function (_Component) {
 }(_react.Component);
 
 ChartSvg.defaultProps = _extends({
-  svgClassName: 'react-d3-core__container_svg'
+  svgClassName: 'mhs-d3-core__container_svg'
 }, _commonProps2.default);
 ChartSvg.propTypes = {
   id: _react.PropTypes.string,
@@ -23500,7 +23500,7 @@ var ChartSvg = function (_Component) {
 }(_react.Component);
 
 ChartSvg.defaultProps = _extends({
-  svgClassName: 'react-d3-core__container_svg'
+  svgClassName: 'mhs-d3-core__container_svg'
 }, _commonProps2.default);
 ChartSvg.propTypes = {
   id: _react.PropTypes.string,

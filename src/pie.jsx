@@ -9,12 +9,12 @@ import PropTypes from 'prop-types';
 
 import {
   Legend
-} from 'react-d3-core';
+} from 'mhs-d3-core';
 
 import {
   ChartPie,
   Pie
-} from 'react-d3-shape';
+} from 'mhs-d3-shape';
 
 export default class PieChart extends Component {
   constructor(props) {
